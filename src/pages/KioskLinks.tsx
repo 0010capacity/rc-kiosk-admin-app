@@ -24,7 +24,7 @@ export default function KioskLinks() {
   }, []);
 
   const getKioskUrl = (locationId: string) =>
-    `https://leebeyondgo.github.io/rc-kiosk-app/#/location/${locationId}`;
+    `https://redcross-kiosk-user.web.app/#/location/${locationId}`;
 
   const handleQRDownload = (locationId: string) => {
     const canvas = document.getElementById(`qr-download-${locationId}`) as HTMLCanvasElement;
